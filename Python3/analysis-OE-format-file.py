@@ -19,7 +19,7 @@ def butter_bandpass_filter(data, lowcut, highcut, fs, order=5):
 
 
 rec = OpenEphys.loadContinuous(
-    "~/Documents/Work/OEdata/2017-11-01_04-11-56/100_CH1.continuous")
+    "/home/chetana/Documents/Work/OEdata/2017-11-01_04-11-56/100_CH1.continuous")
 
 fs = 30000.0
 lowcut = 150.0
